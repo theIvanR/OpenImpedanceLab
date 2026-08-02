@@ -26,6 +26,10 @@ Example impedance measurement of a loudspeaker from 20 to 20K Hz with coherence 
 
 ![Example impedance Bode plot](example/impedance_bode_plot.png)
 
+## Quickstart: 
+- install dependencies and construct circuit.
+- identify which devices are "line in" and "line out" in your pc. NOTE, a two input input device is required and most "mic in" ports wont work.
+- plug in DUT as instructed and follow prompts from script. 
 
 ## License:
 Licensed under the GNU Affero General Public License v3.0 (AGPL-3.0).
