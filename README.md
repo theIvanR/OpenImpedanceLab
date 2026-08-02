@@ -1,10 +1,6 @@
 # Open Impedance Lab
 
-Open Impedance Lab is an open-source audio impedance measurement and characterization toolkit.
-
-It provides an accessible, reproducible alternative to proprietary impedance analyzers by combining commodity audio hardware with modern digital signal processing.
-
-Turn any PC with stereo line-in and line-out into an impedance measurement rig.
+OpenImpedanceLab is an open-source audio impedance measurement toolkit for turning commodity sound hardware into a high-performance impedance analyzer.
 
 * 3-point calibration workflow: channel mismatch, open, and short
 * Calibration stored in a `.cal` file
@@ -19,13 +15,10 @@ Soundcard line out ──+── series resistor (e.g. 22 Ω) ──+── DUT 
                      └────────────────────────────────────── soundcard line in (channel 1)
 ```
 
-Features:
+## Example Measurement
 
-* Sound-card-based impedance measurements
-* Automated calibration workflow
-* Frequency-domain transfer function estimation
-* Coherence analysis
-* Complex impedance extraction
-* CSV export and plotting
+Example impedance measurement of a loudspeaker:
+
+![Example impedance Bode plot](example/impedance_bode_plot.png)
 
 Licensed under the GNU Affero General Public License v3.0 (AGPL-3.0).
