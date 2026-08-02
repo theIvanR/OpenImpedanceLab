@@ -2,7 +2,7 @@
 
 OpenImpedanceLab is an open-source audio impedance measurement toolkit for turning commodity sound hardware into a high-performance impedance analyzer.
 
-Features:
+## Features:
 
 * 3-point calibration workflow: channel mismatch, open, and short
 * Calibration stored in a `.cal` file
