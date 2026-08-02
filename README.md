@@ -2,6 +2,14 @@
 
 OpenImpedanceLab is an open-source audio impedance measurement toolkit for turning commodity sound hardware into a high-performance impedance analyzer.
 
+```text
+Soundcard line out ──+── series resistor (e.g. 22 Ω) ──+── DUT / driver ── GND
+                     │                                 │
+                     │                                 └── soundcard line in (channel 2)
+                     └────────────────────────────────────── soundcard line in (channel 1)
+```
+
+
 ## Features:
 
 * 3-point calibration workflow: channel mismatch, open, and short
@@ -10,14 +18,7 @@ OpenImpedanceLab is an open-source audio impedance measurement toolkit for turni
 * Complex impedance extraction from voltage-divider measurements
 * Automatic export of `.csv` files with magnitude, phase, and coherence
 * Measurement plotting and visualization
-* Example use case: measure a loudspeaker’s electrical impedance from 20 Hz to 20 kHz using a simple voltage-divider setup with one sense resistor
 
-```text
-Soundcard line out ──+── series resistor (e.g. 22 Ω) ──+── DUT / driver ── GND
-                     │                                 │
-                     │                                 └── soundcard line in (channel 2)
-                     └────────────────────────────────────── soundcard line in (channel 1)
-```
 
 ## Example Measurement
 
