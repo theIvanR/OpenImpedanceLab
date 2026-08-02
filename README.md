@@ -1,4 +1,4 @@
-# OpenImpedanceLab
+# Overview
 
 OpenImpedanceLab is an open-source audio impedance measurement toolkit for turning commodity sound hardware into a high-performance impedance analyzer.
 
