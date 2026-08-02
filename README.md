@@ -20,10 +20,12 @@ Soundcard line out ──+── series resistor (e.g. 22 Ω) ──+── DUT 
 * Measurement plotting and visualization
 
 
-## Example Measurement
+## Example Measurement:
 
-Example impedance measurement of a loudspeaker:
+Example impedance measurement of a loudspeaker from 20 to 20K Hz with coherence plot
 
 ![Example impedance Bode plot](example/impedance_bode_plot.png)
 
+
+## License:
 Licensed under the GNU Affero General Public License v3.0 (AGPL-3.0).
